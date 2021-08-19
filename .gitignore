@@ -1,0 +1,8 @@
+.idea
+.vscode
+.algorithm
+.datastructure
+*.o
+*.exe
+*.bin
+*.out
