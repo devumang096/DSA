@@ -84,3 +84,20 @@ int main()
    array1->printElement();
    return 0;
 }
+
+//2-D ARRAY
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+    int a[100][100];
+    //Base add. + ((Row No.)*(Total col)+ col no.)*Sizeof(datatype);
+    a[54][46]= 0 + ((54)*(100)+ 46)*4;//row major
+     cout<<"Row major "<<a[54][46]<<endl;
+
+    a[54][46]= 0 + ((46)*(100)+ 54)*4;//coloumn major
+    cout<<"Column major "<<a[54][46]<<endl;
+
+    return 0;
+}
