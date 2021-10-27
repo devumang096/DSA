@@ -40,7 +40,7 @@ int main()
     return 0;
 }
 
-//ABSTRACT DATATYPE
+//ABSTRACT DATATYPE AND NEW OPERATOR
 #include<iostream>
 using namespace std;
 
